@@ -1,6 +1,18 @@
 
-:root{
- --navy:#0A1F44;--blue:#0077C8;--teal:#00B4DB;--light:#F2F4F7;--char:#41464B;
+: root {
+  --navy: #0A1F44;
+  --blue: #0077C8;
+  --teal: #00B4DB;
+  --charcoal: #41464B;
+  --light: #F2F4F7;
+  --white: #FFFFFF;
+
+  --shadow:
+    0 12px 40px rgba(0,0,0,.12);
+
+  --radius: 14px;
+
+  --container: 1280px;
 }
 *{box-sizing:border-box} body{margin:0;font-family:Arial,sans-serif;color:#333}
 nav{background:var(--navy);padding:16px;position:sticky;top:0}
